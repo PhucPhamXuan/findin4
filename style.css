@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.img{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(224, 224, 224);
+}
+
+.send {
+    margin-right: 0;
+    margin-left:auto;
+}
+
+
+
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+body.dark {
+	--primary-color: #0a76f1;
+	--background-color: #2d2c2d;
+	--box-color: #3b3a3b;
+	--text-color: #fff;
+
+	background-color: var(--background-color);
+}
+
+.chu {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--text-color)
+}
+.block {
+    margin-bottom: 5px;
+}
+.chu2 {
+    color: var(--text-color)
+}
+#nutbam {
+    margin-top: 5px;
+}
+
+h1 {
+    color: var(--text-color)
+}
+a {
+    color: var(--text-color) 
+}
+img {
+    /* object-fit: cover; */
+object-fit:contain;
+/* object-fit:none; */
+
+}
+
+
+
+
+
+
+
+
+
+
